@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/weather.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <nav class="normal-container">
+    <div class="logo">全 台 氣 候 預 測</div>
+    <input type="checkbox" name="nav-btn" id="btn-switch" hidden>
+    <label for="btn-switch" class="btn-area-switch">
+      <div class="line line-1"></div>
+      <div class="line line-2"></div>
+      <div class="line line-3"></div>
+    </label>
+    <div class="btn-area">
+      <button type="button" class="btn">全部</button>
+      <hr>
+      <button type="button" class="btn">北部</button>
+      <hr>
+      <button type="button" class="btn">中部</button>
+      <hr>
+      <button type="button" class="btn">南部</button>
+      <hr>
+      <button type="button" class="btn">東部</button>
+      <hr>
+      <button type="button" class="btn">離島</button>
+    </div>
+  </nav>
+  <main class="normal-container">
+    <div class="card-region">
+    </div>
+  </main>
+
+  <script src="./JS/weather.js"></script>
+</body>
+
+</html>
